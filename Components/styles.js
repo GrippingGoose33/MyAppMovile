@@ -1,4 +1,4 @@
-import { Platform, StyleSheet, StatusBar } from "react-native-web";
+import { Platform, StyleSheet, StatusBar } from "react-native";
 
 export default StyleSheet.create({
     container: {
@@ -23,7 +23,7 @@ export default StyleSheet.create({
     boxText: {
         color: 'darkslategray',
         fontWeight: 'bold',
-    },
+    }
 
   });
   
