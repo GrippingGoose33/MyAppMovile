@@ -1,13 +1,15 @@
 import React from 'react';
 import {Text, View} from 'react-native';
+import Box from './Box/Box';
 import styles from './styles';
 
 function Comp() {
     return (
         <View style={styles.container}>
-            <View style={styles.box}>
-                <Text style={styles.boxText}>Caja</Text>
-            </View>
+            <Box>1</Box>
+            <Box>2</Box>
+            <Box>3</Box>
+            <Box>4</Box>
         </View>
     );
 }
