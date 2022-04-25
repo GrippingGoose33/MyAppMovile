@@ -1,18 +1,22 @@
 import React from 'react';
-import {Text, View} from 'react-native';
+import {StatusBar, Text, View} from 'react-native';
 import styles from './styles';
 import Box from './Box/Box';
+import Row from './Tools/Row';
+import Column from './Tools/column';
 
-const boxes = new Array(10).fill(null).map((v, i) => i+1);
+//const boxes = new Array(10).fill(null).map((v, i) => i+1);
 
 function Comp() {
     return (
         <View style={styles.container}>
-            <StatusBar hidden={false}/>{
-                boxes.map(v => (
-                <Box key={v}>#{v}</Box>
-                ))
-            }
+            <StatusBar hidden={false}/>
+            <Row>
+                <Column>
+                    <Box>#1</Box>
+                    <Box>#1</Box>
+                </Column>
+            </Row>
 
         </View>
     );
