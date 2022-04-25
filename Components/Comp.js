@@ -8,7 +8,7 @@ const boxes = new Array(10).fill(null).map((v, i) => i+1);
 function Comp() {
     return (
         <View style={styles.container}>
-            <StatusBar hiden={false}/>{
+            <StatusBar hidden={false}/>{
                 boxes.map(v => (
                 <Box key={v}>#{v}</Box>
                 ))
