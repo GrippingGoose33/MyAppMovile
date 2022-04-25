@@ -4,7 +4,7 @@ export default StyleSheet.create({
     container: {
         flex: 1,
         flexDirection: 'column',
-        flexWrap: 'wrap',
+        //flexWrap: 'wrap',
         justifyContent: 'space-around',
         alignItems: 'center',
         backgroundColor: 'ghostwhite',
@@ -32,7 +32,7 @@ export default StyleSheet.create({
 
     row: {
       flex: 1,
-      alignItems: 'center',
+      //alignItems: 'center',
       flexDirection: 'row',
       justifyContent: 'space-around',
       alignSelf: 'stretch',
