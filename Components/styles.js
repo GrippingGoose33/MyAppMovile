@@ -32,7 +32,7 @@ export default StyleSheet.create({
 
     row: {
       flex: 1,
-      //alignItems: 'center',
+      //    alignItems: 'center',
       flexDirection: 'row',
       justifyContent: 'space-around',
       alignSelf: 'stretch',

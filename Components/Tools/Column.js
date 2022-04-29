@@ -3,7 +3,7 @@ import {View} from 'react-native';
 import styles from '../styles';
 import PropTypes from 'prop-types';
 
-function Column(props) {
+function Column(children) {
     return (
         <View style={styles.column}>
             {children}
@@ -12,7 +12,7 @@ function Column(props) {
 }
 
 Column.propTypes = {
-    children: propTypes.node.isRequired,
+    children: PropTypes.node.isRequired,
 }
 
 export default Column;

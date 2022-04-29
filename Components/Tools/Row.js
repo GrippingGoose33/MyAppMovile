@@ -3,7 +3,7 @@ import {View} from 'react-native';
 import styles from '../styles';
 import PropTypes from 'prop-types';
 
-function Row(props) {
+function Row(children) {
     return (
         <View style={styles.row}>
             {children}
@@ -12,7 +12,7 @@ function Row(props) {
 }
 
 Row.propTypes = {
-    children: propTypes.node.isRequired,
+    children: PropTypes.node.isRequired,
 }
 
 export default Row;
