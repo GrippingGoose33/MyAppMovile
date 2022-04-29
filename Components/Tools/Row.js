@@ -1,7 +1,7 @@
 import React from 'react';
 import {View} from 'react-native';
 import styles from '../styles';
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
 
 function Row(props) {
     return (

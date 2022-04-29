@@ -3,7 +3,7 @@ import {StatusBar, Text, View} from 'react-native';
 import styles from './styles';
 import Box from './Box/Box';
 import Row from './Tools/Row';
-import Column from './Tools/column';
+import Column from './Tools/Column';
 
 //const boxes = new Array(10).fill(null).map((v, i) => i+1);
 
