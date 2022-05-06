@@ -5,8 +5,6 @@ import Box from './Box/Box';
 import Row from './Tools/Row';
 import Column from './Tools/Column';
 
-//const boxes = new Array(10).fill(null).map((v, i) => i+1);
-
 function Comp() {
     return (
         <View style={styles.container}>
