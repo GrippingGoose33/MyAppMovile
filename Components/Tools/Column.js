@@ -3,7 +3,7 @@ import {View} from 'react-native';
 import styles from '../styles';
 import PropTypes from 'prop-types';
 
-function Column(children) {
+const Column = ({children}) => {
     return (
         <View style={styles.column}>
             {children}

@@ -3,7 +3,7 @@ import {View} from 'react-native';
 import styles from '../styles';
 import PropTypes from 'prop-types';
 
-function Row(children) {
+const Row = ({children}) => {
     return (
         <View style={styles.row}>
             {children}
